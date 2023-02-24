@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/roboto/Roboto-Light.ttf);
+}
+
+
+
+select.lang:hover {
+    cursor: pointer;
+}
+
+img.saylani:hover {
+    cursor: pointer;
+}
+
+/* Dropdown menu of about */
+.aboutbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutmenu {
+    position: relative;
+    display: inline-block;
+}
+
+a.aboutitems:hover {
+    width: 200px;
+    background-color: yellowgreen;
+}
+
+div.aboutitems {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+div.aboutitems a.aboutitems:hover {
+    cursor: pointer;
+}
+
+.aboutmenu:hover .aboutitems {
+    display: block;
+}
+
+.aboutmenu:hover .aboutbtn {
+    display: block;
+}
+
+/* Dropdown menu of media */
+.mediabtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mediamenu {
+    position: relative;
+    display: inline-block;
+}
+
+a.mediaitems:hover {
+    width: 100px;
+    background-color: yellowgreen;
+}
+
+div.mediaitems {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+div.mediaitems a.mediaitems:hover {
+    cursor: pointer;
+}
+
+.mediamenu:hover .mediaitems {
+    display: block;
+}
+
+.mediamenu:hover .mediabtn {
+    display: block;
+}
+
+/* Dropdown menu odf contact us */
+.contactusbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contactusmenu {
+    position: relative;
+    display: inline-block;
+}
+
+a.contactusitems:hover {
+    width: 100px;
+    background-color: yellowgreen;
+}
+
+div.contactusitems {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+div.contactusitems a.contactusitems:hover {
+    cursor: pointer;
+}
+
+.contactusmenu:hover .contactusitems {
+    display: block;
+}
+
+.contactusmenu:hover .contactusbtn {
+    display: block;
+}
+
+
+
+
+
+button#readmore:hover {
+    cursor: pointer;
+}
+
+button.F:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+button.M:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+button.FR:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+button.D:hover{
+    cursor:pointer;
+}
+button.EBSF:hover{
+    cursor:pointer;
+}
+button.education:hover{
+    cursor: pointer;
+}
+button.food:hover{
+    cursor: pointer;
+}
+button.roplant:hover{
+    cursor: pointer;
+}
+button.onlinesadqah:hover{
+    cursor: pointer;
+}
+button.medical:hover{
+    cursor: pointer;
+}
+button.welfare:hover{
+    cursor: pointer;
+}
+
+button.FDFFAISAB:hover{
+    cursor: pointer;
+}
+button.ITEC:hover{
+    cursor: pointer;
+}
+button.EBSF:hover{
+    cursor: pointer;
+}
+
+button.arrow:hover{
+    cursor: pointer;
+}
